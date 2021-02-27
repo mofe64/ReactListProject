@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Container from './container';
 import reportWebVitals from './reportWebVitals';
+import './css/index.css'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Container></Container>,
   document.getElementById('root')
 );
 
