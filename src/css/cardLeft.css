@@ -1,0 +1,19 @@
+.cardLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.cardLeft-top {
+    color: #5da5a4;
+    font-weight: 700;
+}
+
+.cardLeft-middle{
+    color: #5da5a4;
+    font-weight: 900;
+}
+
+.cardLeft-bottom{
+    color:grey;
+    font-weight: 500;
+}

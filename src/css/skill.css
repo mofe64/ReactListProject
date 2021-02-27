@@ -1,3 +1,22 @@
+.skill {
+    background-color: rgba(223,250,255,255);
+    height: 25px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.skill:hover{
+    background-color: #5da5a4;
+    cursor: pointer;
+}
+.skill:hover p {
+    color: white;
+}
 .skill p{
     color : rgba(102,159,157,255);
+    font-weight: 500;
 }
