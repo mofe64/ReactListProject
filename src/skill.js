@@ -1,8 +1,8 @@
 import './css/skill.css'
 
-const Skill = ({name}) =>   
+const Skill = ({ skill }) =>   
     <div className="skill">
-        <p>Skill: {name} </p>
+        <p>{skill} </p>
     </div>
 
 export default Skill;

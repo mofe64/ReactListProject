@@ -1,14 +1,14 @@
 import './css/cardLeft.css'
-const CardLeft = () =>
+const CardLeft = ({ cohortName, fullname, nickname}) =>
     <div className="cardLeft">
         <div className="cardLeft-top">
-            <p>Cohort Five : Pentax</p>
+            <p>Cohort Five : { cohortName }</p>
         </div>
         <div className="cardLeft-middle">
-            <p>Native full name </p>
+            <p>{ fullname }</p>
         </div>
         <div className="cardLeft-bottom">
-            <p>Native Nick Name</p>
+            <p>{ nickname }</p>
         </div>
     </div>
 

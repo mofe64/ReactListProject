@@ -2,29 +2,32 @@
 .searchBox {
     display: flex;
     justify-content: center;
+    padding-top: 4rem;
+    
 }
 .searchBox input{
     padding: 1rem 1rem;
     width: 800px;
     outline: none;
-    position: relative;
-    top: 4rem;
     border: none;
     background-color: white;
     border-radius: 3px;
+    box-shadow: 0 4px 6px -5px black;
+    
 }
 .searchBox button {
     outline: none;
     border: none;
     background-color: transparent;
-    position: relative;
-    top: 4rem;
-    left: -4rem;
     text-decoration: underline;
     color:#5da5a4;
     cursor: pointer;
+    font-weight: 700 !important;
+    position: relative;
+    left: -50px;
     
 }
+
 
 /* clears the ‘X’ from Internet Explorer */
 input[type=search]::-ms-clear { display: none; width : 0; height: 0; }

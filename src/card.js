@@ -1,10 +1,10 @@
 import CardLeft from './cardLeft';
 import CardRight from './cardRight';
 import './css/card.css'
-const Card = () => 
+const Card = ({cohortName, fullname, nickname, skills}) => 
     <div className="card">
-        <CardLeft></CardLeft>
-        <CardRight></CardRight>
+        <CardLeft  cohortName={cohortName} fullname={fullname} nickname={nickname} ></CardLeft>
+        <CardRight skills={skills}></CardRight>
     </div>
     
 
