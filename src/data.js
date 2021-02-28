@@ -1,6 +1,4 @@
-const nativeData =
-{
-    natives: [
+const nativeData = [
             {
             cohortName: "Pentax",
             fullname: "Eyimofe",
@@ -64,7 +62,7 @@ const nativeData =
             
         ]
             
-}
+
 
 export default nativeData;
         

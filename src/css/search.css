@@ -1,39 +1,44 @@
-
 .searchBox {
-    display: flex;
-    justify-content: center;
-    padding-top: 4rem;
-    
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
 }
-.searchBox input{
-    padding: 1rem 1rem;
-    width: 800px;
-    outline: none;
-    border: none;
-    background-color: white;
-    border-radius: 3px;
-    box-shadow: 0 4px 6px -5px black;
-    
+.searchBox input {
+  padding: 1rem 1rem;
+  width: 800px;
+  outline: none;
+  border: none;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 6px -5px black;
 }
 .searchBox button {
-    outline: none;
-    border: none;
-    background-color: transparent;
-    text-decoration: underline;
-    color:#5da5a4;
-    cursor: pointer;
-    font-weight: 700 !important;
-    position: relative;
-    left: -50px;
-    
+  outline: none;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  color: #5da5a4;
+  cursor: pointer;
+  font-weight: 700 !important;
+  position: relative;
+  left: -60px;
 }
 
-
 /* clears the ‘X’ from Internet Explorer */
-input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
-input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+input[type="search"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+input[type="search"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
 /* clears the ‘X’ from Chrome */
- input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration { display: none; }
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

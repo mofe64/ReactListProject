@@ -1,9 +1,10 @@
-.cardHolder{
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 10%;
-    background-color: #f0fafb;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.cardHolder {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+  background-color: #f0fafb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
