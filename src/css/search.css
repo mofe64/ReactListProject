@@ -1,0 +1,36 @@
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+}
+.searchBox input{
+    padding: 1rem 1rem;
+    width: 800px;
+    outline: none;
+    position: relative;
+    top: 4rem;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+}
+.searchBox button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top: 4rem;
+    left: -4rem;
+    text-decoration: underline;
+    color:#5da5a4;
+    cursor: pointer;
+    
+}
+
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+/* clears the ‘X’ from Chrome */
+ input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
