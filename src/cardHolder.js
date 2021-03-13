@@ -2,7 +2,8 @@ import './css/cardHolder.css'
 import Card from './card';
 import LoadingAnimation from './loadingAnimation'
 
-const CardHolder = ({natives=[], loading=false}) => 
+const CardHolder = ({ natives = [], loading = false }) =>
+    
     <div className="cardHolder">
         {(loading)?
             <LoadingAnimation /> :

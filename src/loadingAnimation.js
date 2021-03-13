@@ -10,7 +10,7 @@ export default class LoadingAnimation extends Component {
         return (
             <Pulse>
                 <div className="animation-div">
-                    <h1 className="animation-text">Loading Natives ....</h1>
+                    <h1 className="animation-text">Please hold on while we ....</h1>
                 </div>
             </Pulse>
         );
